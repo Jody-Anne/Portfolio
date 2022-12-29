@@ -1,0 +1,171 @@
+*{
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin-left: 15px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+.button{
+border-radius: 20px;
+background-color: 	#ccb0f0;
+padding: 5px;
+text-decoration: none;
+
+}
+.button a{
+  color: black;
+  text-decoration: none;
+}
+
+.image-text {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the image */
+.image-text img {
+  width: 600px;
+  height: 400px;
+  border-radius: 50%;
+}
+.image-text h3 {
+  margin-left: 150px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #ceedff;
+  padding: 50px;
+  border-radius: 50%;
+}
+.image-text a{
+text-decoration: none;
+}
+.image-text p {
+  font-weight: bold;
+  align-items: flex-end;
+}
+
+.image-text2 {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the image */
+.image-text2 img {
+  width: 600px;
+  height: 400px;
+  border-radius: 50%;
+}
+.image-text2 h3 {
+  margin-left: 150px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #ceceff;
+  padding: 50px;
+  border-radius: 50%;
+}
+.image-text2 a{
+text-decoration: none;
+}
+.image-text2 p {
+  font-weight: bold;
+  align-items: flex-end;
+}
+
+.image-text3 {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the image */
+.image-text3 img {
+  width: 600px;
+  height: 400px;
+  border-radius: 50%;
+}
+.image-text3 h3 {
+  margin-left: 150px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #ffd9f4;
+  padding: 50px;
+  border-radius: 50%;
+}
+.image-text3 a{
+text-decoration: none;
+}
+.image-text3 p {
+  font-weight: bold;
+  align-items: flex-end;
+}
+.p{
+  font-size: 150px;
+}
+.Image{
+  display: flex;
+  display: center;
+}
+.ImageMe{
+  justify-content: center;
+  border-radius: 10px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 28%;
+  padding: 15px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding-left: 15px;
+}
+#banner {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(230, 230, 230);
+  text-align: center;
+}
+
+.Short{
+border-radius: 60%;  
+margin: auto;
+display: block;
+}
+
+#banner2 {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(74, 74, 74);
+  text-align: center;
+}
+#banner3 {
+  width: 1300px;
+  height: 400px;
+  background-color: rgb(74, 74, 74);
+  text-align: center;
+}
